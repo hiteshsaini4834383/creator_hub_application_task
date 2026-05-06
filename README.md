@@ -1,16 +1,67 @@
-# creator_hub_application
+🚀 Creator Hub Mobile Application
 
-A new Flutter project.
+A Flutter-based social media + chat + product listing application built as part of a Mobile Application Developer Assignment.
 
-## Getting Started
+📱 Overview
 
-This project is a starting point for a Flutter application.
+Creator Hub is a mini social platform that demonstrates:
 
-A few resources to get you started if this is your first Flutter project:
+🔐 User Authentication (Login / Signup)
+📰 Social Feed (Create, Like Posts with Image support)
+💬 Real-time One-to-One Chat
+🛍 Product Listing Module
+☁ Firebase integration (Auth + Realtime Database + Storage)
+⚡ GetX State Management
+🎯 Objective
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This project demonstrates real-world mobile app development skills including:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clean architecture
+Firebase integration
+Real-time data handling
+UI/UX design
+State management
+Error handling & validation
+✨ Features
+🔐 Authentication
+Email & Password Signup/Login
+Input validation (email format, empty fields)
+Session persistence using Firebase Auth
+📰 Social Feed
+Create posts with text + image
+Like/unlike posts in real-time
+Firebase Realtime Database powered feed
+Empty state handling
+💬 Chat System
+One-to-one real-time messaging
+Auto chat creation between users
+Live message updates (no refresh needed)
+Shows sender/receiver messages
+Timestamp support
+🛍 Product Module
+Add product (title, price, image)
+Product listing UI
+Mock "Buy Now" button (no payment integration)
+🧠 State Management
+GetX used for:
+Controllers
+Reactive UI updates
+Dependency management
+
+🔥 Tech Stack
+Flutter
+Dart
+Firebase Authentication
+Firebase Realtime Database
+Firebase Storage
+GetX State Management
+Image Picker
+
+
+👨‍💻 Author
+
+Hitesh
+
+Flutter Developer
+Android / Mobile App Developer
+Passionate about Firebase & real-time apps
